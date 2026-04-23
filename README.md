@@ -283,7 +283,9 @@ docker run -d -p 5020:5020 my-python-app
 ---
 
 ---
+tags
 
+---
 git tag v1.0
 git tag -a v1.2 -m "version 1.2"
 git show v1.0
@@ -292,4 +294,4 @@ git tag v2.0
 git tag push --tags
 git tag -d v1.0
 git push origin -d v.10
----
+
