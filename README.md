@@ -1,3 +1,5 @@
+
+
 # CI/CD & Docker Experiments
 
 This repository contains multiple experiments covering Maven, Docker, Jenkins pipelines, volumes, and containerization.
@@ -278,4 +280,16 @@ docker run -d -p 5020:5020 my-python-app
     </plugins>
 </build>
 
+---
+
+---
+
+git tag v1.0
+git tag -a v1.2 -m "version 1.2"
+git show v1.0
+git tag -l 1v.*
+git tag v2.0
+git tag push --tags
+git tag -d v1.0
+git push origin -d v.10
 ---
